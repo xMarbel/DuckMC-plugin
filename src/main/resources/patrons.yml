@@ -1,0 +1,101 @@
+# ============================================================
+#  PATRONI
+#  Kolory/teksty w MiniMessage. Wartosci (values) mozna dowolnie zmieniac.
+# ============================================================
+settings:
+  timezone: "Europe/Warsaw"
+  duration-days: 5            # na ile dni nowy patron wspiera gracza
+  free-draw-days: 3           # darmowe losowanie co X dni
+  quick-cost: 2               # koszt szybkiego losowania (ilosc odlamkow)
+  shard-name: "Smoczy Odłamek"
+  hour-duration-minutes: 30   # ile trwa Godzina Patrona
+  hours:                      # Godziny Patronow - start o rownej godzinie
+    weekday:
+      start: "13:00"
+      end: "22:30"
+    weekend:
+      start: "10:00"
+      end: "23:30"
+
+gui:
+  dice-slot: 12
+  info-slot: 14
+  dice-material: CRAFTER
+  patron-slots: [29, 30, 31, 32, 33, 39, 40, 41]
+
+patrons:
+  cyklop:
+    name: "CYKLOP"
+    color: "#FFA500"
+    perk: "<gold>Szansa na spowolnienie przeciwnika"
+    hour-perk: "<gray>Złote Jabłka dają większą regenerację"
+    values:
+      slow-chance: 0.15
+      slow-seconds: 3
+      slow-level: 1
+      hour-regen-seconds: 10
+      hour-regen-level: 2
+  helios:
+    name: "HELIOS"
+    color: "#FFD700"
+    perk: "<gold>10%</gold> że zjedzone złote jabłko da <gold>dodatkowe efekty kokosa"
+    hour-perk: "<gray>Szansa na nadanie efektu podświetlenia przeciwnikowi"
+    values:
+      coconut-chance: 0.10
+      hour-glow-chance: 0.20
+      glow-seconds: 5
+  kratos:
+    name: "KRATOS"
+    color: "#3FA9FF"
+    perk: "<aqua>Szansa na postawienie pajęczyny pod nogami przy uderzeniu"
+    hour-perk: "<gray>Blokada stawiania pajęczyn na mapie"
+    values:
+      web-chance: 0.10
+      web-seconds: 4
+  tanatos:
+    name: "TANATOS"
+    color: "#B266FF"
+    perk: "<light_purple>Szansa na ściągnięcie hełmu przeciwnikowi"
+    hour-perk: "<gray>Każdy gracz otrzymuje czas oczekiwania na użycie kolejnej <aqua>fajerwerki"
+    values:
+      helmet-chance: 0.05
+      hour-firework-cooldown-seconds: 10
+  hades:
+    name: "HADES"
+    color: "#E040C0"
+    perk: "<white>Poniżej 5 serc zadajemy więcej obrażeń"
+    hour-perk: "<red>Szansa na zadanie extra uderzenia"
+    values:
+      low-hp: 10.0
+      damage-multiplier: 1.25
+      hour-extra-chance: 0.15
+      hour-extra-damage-percent: 0.5
+  hefajstos:
+    name: "HEFAJSTOS"
+    color: "#FFC400"
+    perk: "<gold>Szansa na zablokowanie uderzenia"
+    hour-perk: "<aqua>Szansa na nadanie osłabienia!"
+    values:
+      block-chance: 0.10
+      hour-weakness-chance: 0.15
+      weakness-seconds: 5
+  artemida:
+    name: "ARTEMIDA"
+    color: "#55FF55"
+    perk: "<red>Zwiększony drop z kopania"
+    hour-perk: "<red>TurboDrop x1.3 z generatorów <gray>dla wszystkich"
+    values:
+      drop-chance: 0.20
+      turbo-multiplier: 1.3
+      # bloki, z ktorych patron Artemidy ma szanse na dodatkowy drop
+      drop-blocks: [STONE, COBBLESTONE, DEEPSLATE, COAL_ORE, IRON_ORE, GOLD_ORE, COPPER_ORE, REDSTONE_ORE, LAPIS_ORE, DIAMOND_ORE, EMERALD_ORE, DEEPSLATE_COAL_ORE, DEEPSLATE_IRON_ORE, DEEPSLATE_GOLD_ORE, DEEPSLATE_DIAMOND_ORE, DEEPSLATE_EMERALD_ORE, NETHER_QUARTZ_ORE, ANCIENT_DEBRIS]
+      # bloki-generatory (TurboDrop w Godzinie Patrona)
+      generator-blocks: [STONE, COBBLESTONE, DEEPSLATE, BASALT, NETHERRACK, OBSIDIAN]
+  afrodyta:
+    name: "AFRODYTA"
+    color: "#FF55FF"
+    perk: "<light_purple>Pół Dodatkowego serca"
+    hour-perk: "<light_purple>1 Dodatkowe Serce <gray>dla wszystkich"
+    values:
+      patron-hp: 1.0   # 1.0 = pol serca
+      hour-hp: 2.0     # 2.0 = jedno serce

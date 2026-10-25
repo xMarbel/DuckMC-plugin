@@ -1,0 +1,52 @@
+# ============================================================
+#  RANGI
+#  name       - nazwa pokazywana na scoreboardzie
+#  prefix     - prefix w czacie, nad glowa i w tabie
+#  name-color - kolor nicku w czacie
+#  chat-color - kolor wiadomosci w czacie
+#  weight     - kolejnosc w tabie (wyzszy = wyzej)
+#  Dodanie nowej rangi = skopiuj blok i zmien id. Nadajesz: /ranga set <gracz> <id>
+# ============================================================
+ranks:
+  gracz:
+    name: "<gray>Gracz"
+    prefix: "<dark_gray>[<gray>Gracz<dark_gray>] "
+    name-color: "<gray>"
+    chat-color: "<gray>"
+    weight: 1
+  vip:
+    name: "<yellow>VIP"
+    prefix: "<dark_gray>[<yellow>VIP<dark_gray>] "
+    name-color: "<yellow>"
+    chat-color: "<white>"
+    weight: 2
+  svip:
+    name: "<#FFA500>SVIP"
+    prefix: "<dark_gray>[<#FFA500>SVIP<dark_gray>] "
+    name-color: "<#FFA500>"
+    chat-color: "<white>"
+    weight: 3
+  duck:
+    name: "<#2E8BFF>Duck"
+    prefix: "<dark_gray>[<#2E8BFF><bold>Duck</bold><dark_gray>] "
+    name-color: "<#2E8BFF>"
+    chat-color: "<white>"
+    weight: 4
+  mini-media:
+    name: "<gradient:#A020F0:#FF69B4>Mini-Media"
+    prefix: "<dark_gray>[<gradient:#A020F0:#FF69B4>Mini-Media</gradient><dark_gray>] "
+    name-color: "<gradient:#A020F0:#FF69B4>"
+    chat-color: "<white>"
+    weight: 5
+  media:
+    name: "<#FF69B4>Media"
+    prefix: "<dark_gray>[<#FF69B4>Media<dark_gray>] "
+    name-color: "<#FF69B4>"
+    chat-color: "<white>"
+    weight: 6
+  tworca:
+    name: "<#A020F0>Twórca"
+    prefix: "<dark_gray>[<#A020F0><bold>Twórca</bold><dark_gray>] "
+    name-color: "<#A020F0>"
+    chat-color: "<white>"
+    weight: 7

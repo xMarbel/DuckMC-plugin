@@ -1,0 +1,35 @@
+# ============================================================
+#  SCOREBOARD - latwa edycja
+#  Kazda linia to tekst MiniMessage. Max 15 linii.
+#  Placeholdery: %kanal% %nick% %ranga% %patron% %stan% %kills% %deaths%
+#                %points% %pos% %czas% %esencje% %srebrne% %zlote% %klan% %online%
+#  Po zmianie: /duck reload
+# ============================================================
+
+# Tytul (animowany gradient). Zmien napis i kolory jak chcesz.
+title: "DUCKMC.PL"
+title-colors: ["#FFD700", "#FF8C00", "#FF3CAC", "#8A2BE2"]
+title-speed: 0.04       # szybkosc animacji
+update-ticks: 10        # co ile ticków odswiezac (20 = 1 sekunda)
+
+channel: "main1"
+
+lines:
+  - " "
+  - "<red>⚑ <gray>Kanał: <white>%kanal%"
+  - "<gold>☺ <gray>Nick: <white>%nick%"
+  - "<yellow>★ <gray>Ranga: %ranga%"
+  - "<red>♥ <gray>Patron: %patron%"
+  - "<gold>⛃ <gray>Stan Konta: <green>$%stan%"
+  - "<gray>⚔ <red>%kills% <dark_gray>☠ <gray>%deaths%"
+  - "<gold>♛ <gray>Ranking: <yellow>%points% <gray>#%pos%"
+  - "<aqua>⌚ <gray>Czas gry: <white>%czas%"
+  - "<aqua>❖ <gray>Esencje: <white>%esencje%"
+  - "<white>⚔ <gray>Srebrne: <white>%srebrne% <gold>✦ <gray>Złote: <yellow>%zlote%"
+  - "<green>⚑ <gray>Twój klan: <green>%klan%"
+  - " "
+  - "<gradient:#FFD700:#FF3CAC>play.duckmc.pl</gradient>"
+
+# Naglowek i stopka tabu
+tab-header: "\n<gradient:#FFD700:#FF3CAC><bold>DUCKMC.PL</bold></gradient>\n<gray>Online: <white>%online%\n"
+tab-footer: "\n<gray>Sklep: <yellow>duckmc.pl\n"

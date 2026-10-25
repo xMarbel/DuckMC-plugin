@@ -1,0 +1,131 @@
+# ============================================================
+#  MIECZE / ZESTAWY (poziomy 1-20)
+#  sword      - nazwa miecza
+#  genitive   - dopelniacz uzywany w nazwach reszty seta (Helm <genitive>)
+#  color      - kolor nazwy
+#  armor-color- kolor zbroi (skorzana, barwiona)
+#  price      - cena seta w sklepie /sety
+#  Tekstura miecza: resourcepack/assets/duckmc/textures/item/sword_<poziom>.png
+#  Poziomy 1-10 i 18-20 maja nazwy tymczasowe - podmien na swoje.
+# ============================================================
+levels:
+  1:
+    sword: "Miecz Poziomu 1"
+    genitive: "Poziomu 1"
+    color: "#96A0FF"
+    armor-color: "#96A0FF"
+    price: 8
+  2:
+    sword: "Miecz Poziomu 2"
+    genitive: "Poziomu 2"
+    color: "#9B9CF8"
+    armor-color: "#9B9CF8"
+    price: 16
+  3:
+    sword: "Miecz Poziomu 3"
+    genitive: "Poziomu 3"
+    color: "#A199F2"
+    armor-color: "#A199F2"
+    price: 32
+  4:
+    sword: "Miecz Poziomu 4"
+    genitive: "Poziomu 4"
+    color: "#A696EC"
+    armor-color: "#A696EC"
+    price: 64
+  5:
+    sword: "Miecz Poziomu 5"
+    genitive: "Poziomu 5"
+    color: "#AC93E5"
+    armor-color: "#AC93E5"
+    price: 128
+  6:
+    sword: "Miecz Poziomu 6"
+    genitive: "Poziomu 6"
+    color: "#B190DF"
+    armor-color: "#B190DF"
+    price: 256
+  7:
+    sword: "Miecz Poziomu 7"
+    genitive: "Poziomu 7"
+    color: "#B78DD9"
+    armor-color: "#B78DD9"
+    price: 512
+  8:
+    sword: "Miecz Poziomu 8"
+    genitive: "Poziomu 8"
+    color: "#BC89D2"
+    armor-color: "#BC89D2"
+    price: 1024
+  9:
+    sword: "Miecz Poziomu 9"
+    genitive: "Poziomu 9"
+    color: "#C286CC"
+    armor-color: "#C286CC"
+    price: 2048
+  10:
+    sword: "Miecz Poziomu 10"
+    genitive: "Poziomu 10"
+    color: "#C783C6"
+    armor-color: "#C783C6"
+    price: 4096
+  11:
+    sword: "Miecz Aresa"
+    genitive: "Aresa"
+    color: "#C9B8FF"
+    armor-color: "#C9B8FF"
+    price: 8192
+  12:
+    sword: "Miecz Kratosa"
+    genitive: "Kratosa"
+    color: "#FF9F80"
+    armor-color: "#FF9F80"
+    price: 16000
+  13:
+    sword: "Miecz Posejdona"
+    genitive: "Posejdona"
+    color: "#29E0FF"
+    armor-color: "#29E0FF"
+    price: 64000
+  14:
+    sword: "Miecz Hadesa"
+    genitive: "Hadesa"
+    color: "#E86FC1"
+    armor-color: "#E86FC1"
+    price: 128000
+  15:
+    sword: "Miecz Zeusa"
+    genitive: "Zeusa"
+    color: "#FFB830"
+    armor-color: "#FFB830"
+    price: 256000
+  16:
+    sword: "Miecz Artemidy"
+    genitive: "Artemidy"
+    color: "#A58CFF"
+    armor-color: "#A58CFF"
+    price: 1024000
+  17:
+    sword: "Miecz Satyra"
+    genitive: "Satyra"
+    color: "#E8E26A"
+    armor-color: "#E8E26A"
+    price: 2048000
+  18:
+    sword: "Miecz Poziomu 18"
+    genitive: "Poziomu 18"
+    color: "#F36A93"
+    armor-color: "#F36A93"
+    price: 4096000
+  19:
+    sword: "Miecz Poziomu 19"
+    genitive: "Poziomu 19"
+    color: "#F9678D"
+    armor-color: "#F9678D"
+    price: 8192000
+  20:
+    sword: "Miecz Poziomu 20"
+    genitive: "Poziomu 20"
+    color: "#FF6487"
+    armor-color: "#FF6487"
+    price: 16384000

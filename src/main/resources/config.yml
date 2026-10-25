@@ -1,0 +1,25 @@
+# ============================================================
+#  DuckMC - glowna konfiguracja
+#  Teksty uzywaja formatu MiniMessage: <red>, <#FFAA00>, <gradient:#fff:#000>, <bold>
+# ============================================================
+
+# Prefix wiadomosci pluginu
+prefix: "<gradient:#FFD700:#FF8C00><bold>DuckMC</bold></gradient> <dark_gray>» <gray>"
+
+# Nazwa kanalu pokazywana na scoreboardzie (%kanal%)
+channel: "main1"
+
+# Punkty rankingowe i nagrody
+points:
+  per-kill: 10
+  per-death: -5
+  kill-money: 25.0
+
+# Paczka tekstur (tekstury mieczy, ikony patronow).
+# Wrzuc DuckMC-Pack.zip na GitHub (Release) i wklej tu link do pobrania.
+resource-pack:
+  enabled: true
+  url: ""            # <- TUTAJ WKLEJ LINK DO DuckMC-Pack.zip
+  sha1: ""           # opcjonalnie (40 znakow) - zostaw puste jesli nie wiesz
+  force: false       # true = gracz musi przyjac paczke
+  prompt: "<gold>DuckMC <gray>- paczka tekstur (miecze i patroni)"

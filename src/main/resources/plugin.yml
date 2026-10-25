@@ -1,0 +1,24 @@
+name: DuckMC
+version: 1.0.0
+main: pl.duckmc.core.DuckMC
+api-version: '1.21'
+author: DuckMC
+description: Patroni, rangi, scoreboard, NPC i miecze w jednym pluginie.
+commands:
+  patron:
+    description: Otwiera menu patrona
+    aliases: [patroni]
+  ranga:
+    description: Rangi graczy
+  duck:
+    description: Komendy administracyjne DuckMC
+    aliases: [duckmc]
+  npc:
+    description: Zarzadzanie NPC
+  sety:
+    description: Sklep z setami
+    aliases: [zestawy]
+permissions:
+  duckmc.admin:
+    description: Dostep do komend administracyjnych
+    default: op
